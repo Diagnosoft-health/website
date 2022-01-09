@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.97ef34b8.css",
-    "main.js": "/website/static/js/main.858b5f62.js",
-    "static/media/ayub.png": "/website/static/media/ayub.54de00969cbea3eb2ca7.png",
-    "static/media/papa.png": "/website/static/media/papa.b0f8581676bd36740358.png",
-    "static/media/jesse.png": "/website/static/media/jesse.468f00518d0952f54f9d.png",
-    "static/media/customer-support.png": "/website/static/media/customer-support.5b19c5bd3566aff54761.png",
-    "static/media/kabuu.jpg": "/website/static/media/kabuu.528583a068548335ff0b.jpg",
-    "static/media/Kollektif.ttf": "/website/static/media/Kollektif.33fdfd1d0f21c0c8283b.ttf",
-    "static/media/vincent.jpeg": "/website/static/media/vincent.d501ab04290c1087b20a.jpeg",
-    "static/media/consultation.png": "/website/static/media/consultation.6c78eb74c87efd045b4f.png",
-    "static/media/mobile-user.png": "/website/static/media/mobile-user.7c210e3c97748824a117.png",
-    "static/media/logo.svg": "/website/static/media/logo.6d27bb4639c951d53658a1cba4d58e42.svg",
-    "index.html": "/website/index.html",
-    "main.97ef34b8.css.map": "/website/static/css/main.97ef34b8.css.map",
-    "main.858b5f62.js.map": "/website/static/js/main.858b5f62.js.map"
+    "main.css": "/static/css/main.cd68ebe8.css",
+    "main.js": "/static/js/main.68ad164a.js",
+    "static/media/ayub.png": "/static/media/ayub.54de00969cbea3eb2ca7.png",
+    "static/media/papa.png": "/static/media/papa.b0f8581676bd36740358.png",
+    "static/media/jesse.png": "/static/media/jesse.468f00518d0952f54f9d.png",
+    "static/media/customer-support.png": "/static/media/customer-support.5b19c5bd3566aff54761.png",
+    "static/media/kabuu.jpg": "/static/media/kabuu.528583a068548335ff0b.jpg",
+    "static/media/Kollektif.ttf": "/static/media/Kollektif.33fdfd1d0f21c0c8283b.ttf",
+    "static/media/vincent.jpeg": "/static/media/vincent.d501ab04290c1087b20a.jpeg",
+    "static/media/consultation.png": "/static/media/consultation.6c78eb74c87efd045b4f.png",
+    "static/media/mobile-user.png": "/static/media/mobile-user.7c210e3c97748824a117.png",
+    "static/media/logo.svg": "/static/media/logo.6d27bb4639c951d53658a1cba4d58e42.svg",
+    "index.html": "/index.html",
+    "main.cd68ebe8.css.map": "/static/css/main.cd68ebe8.css.map",
+    "main.68ad164a.js.map": "/static/js/main.68ad164a.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ef34b8.css",
-    "static/js/main.858b5f62.js"
+    "static/css/main.cd68ebe8.css",
+    "static/js/main.68ad164a.js"
   ]
 }
