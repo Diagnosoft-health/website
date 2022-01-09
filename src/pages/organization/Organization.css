@@ -1,0 +1,133 @@
+.organization{
+    background: #160A42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.org-card{
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    padding: 15px 30px;
+    display: flex;
+    margin: 20px;
+}
+
+.l-0{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-1{
+    flex: 2;
+    margin-left: 10px;
+    color: #160A42;
+}
+
+.org-title{
+    font-family: Kollektif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #160A42;
+}
+
+ .org-info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #160A42;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.page-title{
+    font-family: Kollektif;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.org-ttl {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.org-ttl span{
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title{
+        font-size: 22px;
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .org-card{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .organization{
+        padding-top: 60px;
+    }
+    .page-title{
+        font-size: 18px;
+        text-align: left;
+        align-items: flex-start;
+        margin: 0;
+        width: 100%;
+    }
+
+    .org-card{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .org-title{
+        font-size: 20px;
+    }
+
+    .org-info{
+        font-size: 14px;
+    }
+    
+
+    /* .l-0 .icon-wrapper{
+        height: 80px;
+        width: auto;
+    }
+    .l-0 .icon-wrapper img{
+        height: 100%;
+        width: 100%;
+    } */
+}

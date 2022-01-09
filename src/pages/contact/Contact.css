@@ -1,0 +1,131 @@
+.contact{
+    background: #160A42;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.cl-0{
+    text-align: center;
+    flex: 1;
+}
+
+.cl-1 h3{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.cl-1{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.form-card{
+    
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.contact-form{
+    width: 100%;
+
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(70, 215, 247, 0.2);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    outline: none;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.contact-form input[type="submit"]{
+    background: linear-gradient(to right,#2B6BDB, #46D7F7);
+    border: 1px solid rgba(15, 82, 186, 1);
+    transition: 0.4s ease;
+    text-transform: capitalize;
+    width: auto;
+}
+
+.contact-form input[type="submit"]:hover{
+    /* background: rgba(15, 82, 186, 1); */
+    color: #fff;
+    transition: 0.4s ease;
+    transform: translateY(-5px);
+}
+
+.response{
+    color: #fff;
+    font-family: Kollektif;
+    border-radius: 5px;
+    background: linear-gradient(to right,#2b95db, #46f746a8);
+    padding: 10px 20px;
+    width: auto;
+    display: none;
+}
+
+.msgSent{
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .cl-0{
+        height: auto;
+        flex: 1;
+    }
+    .cl-1{
+        flex: 2;
+    }
+
+    .cl-0-1{
+        height: 400px;
+        width: auto;
+    }
+
+    .cl-0 img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+   
+    .cl-0{
+        display: none;
+    }
+    
+    .cl-1{
+        margin-top: 15%;
+        margin-left: auto;
+    }
+
+    .form-card{
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.footer{
+    background: #160A42;
+padding: 20px;
+display: flex;
+justify-content: space-evenly;
+}
+
+.footer span{
+    font-family: Kollektif;
+    color: #E0DFE4;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer span{
+        font-size: 12px;
+    }
+}

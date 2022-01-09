@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: #e3e3e3;
+    /* position: relative; */
+    width: 100vw;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+    scroll-snap-type: y proximity; 
+    overflow-y: scroll;
+    height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+
 }
 
-.App-link {
-  color: #61dafb;
+section#company{
+    height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    section#organization{
+        height: auto;
+    } 
+    section#patients{
+        height: auto;
+    }
+    section#home{
+        height: auto;
+    }
+    section{
+        overflow-x: hidden;
+    }
 }

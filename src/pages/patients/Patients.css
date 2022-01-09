@@ -1,0 +1,126 @@
+.patients{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100%;
+    padding: 20px;
+}
+
+.p-0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45%;
+}
+
+.p-0 .portal{ 
+    flex: 2 1;
+    height: 360px;
+    width: auto;
+}
+
+.p-0 .portal img{
+    height: 100%;
+    width: auto;
+    padding-left: 30%;
+}
+.p-intro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-0 .p-intro{
+    flex: 2 2;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.p-0 .p-intro p{
+    width: 60%;
+}
+
+.p-1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.pat-card{
+    border: 1px solid #2B6BDB;
+    background: #fff;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    padding: 15px 30px;
+    display: flex;
+    margin: 20px;
+}
+
+.pg-info{
+    color: #160A42;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .p-0{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-0 .portal{
+        height: 300px;
+        width: 300px;
+    }
+
+    .p-0 .portal img{
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .pat-card{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .p-0 .p-intro{
+        align-items: flex-start;
+    }
+
+    .page-title{
+        width: auto;
+    }
+
+    .p-0 .p-intro p{
+        width: 100%;
+    }
+
+    .pat-card{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p-0 .portal{
+        height: 200px;
+        width: 200px;
+    }
+
+    .p-0 .portal img{
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+}
